@@ -3,7 +3,6 @@ import React from 'react'
 
 const Card = ({title, image, content, deployed}) => {
   return (
-    
     <div className='h-auto bg-slate-900 rounded-xl overflow-hidden m-1'>
       {image && <img src={image} alt={title} className='w-full object-cover' />}
       <h2 className='text-lime-600 font-bold p-2'>{title}</h2>

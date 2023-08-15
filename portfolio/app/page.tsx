@@ -12,6 +12,7 @@ export default function Home() {
   return (
     <div>
       <NavBar/>
+      <h2 className='text-lime-600 font-bold text-4xl tracking-wide'>My Projects</h2>
       <div className='grid grid-cols-auto gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4' >
       {projects?.map( project => {
        return (
