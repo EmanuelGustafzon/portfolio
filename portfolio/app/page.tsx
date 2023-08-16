@@ -15,8 +15,8 @@ export default function Home() {
     <div>
       <NavBar/>
       <Header text='About Me'/>
-      <div className='flex justify-center mt-3 mb-3 w-76 lg:ml-32 lg:mr-32 mt-8 mb-8 bg-color-red'>
-        <p>
+      <div className='flex justify-center mt-3 mb-3 w-76 lg:ml-32 lg:mr-32 mt-8 mb-8'>
+        <p className='text-slate-900'>
           Hello! I am a junior developer experienced in HTML, CSS, Bootstrap, Tailwind, JavaScript, TypeScript, Python, Node.js, PostgreSQL and MongoDB. JavaScript and Node.js are where my heart truly lies.
           I am dedicated, flexible, and passionate about coding. I thrive on new challenges and am always eager to learn. Friendly by nature, I am excited to contribute my skills to exciting projects.
           Looking forward to making an impact through code!
