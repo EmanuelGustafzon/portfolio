@@ -1,6 +1,7 @@
 'use client'
 import React from 'react'
 import Link from 'next/link'
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
 const Navbar = () => {
   return (
@@ -11,10 +12,10 @@ const Navbar = () => {
         </Link>
         <div className='flex space-x-4'>
           <a href='https://www.linkedin.com/in/emanuel-gustafzon-software-developer/' target='_blank' rel='noopener noreferrer'>
-            <p className='text-2xl text-lime-600 hover:text-lime-400' >LinkedIn</p>
+          <FaLinkedin className='text-2xl text-lime-600 hover:text-lime-400' />
           </a>
           <a href='https://github.com/EmanuelGustafzon' target='_blank' rel='noopener noreferrer'>
-            <p className='text-2xl text-lime-600 hover:text-lime-400' >Github</p>
+          <FaGithub className='text-2xl text-lime-600 hover:text-lime-400' />
           </a>
         </div>
       </div>
