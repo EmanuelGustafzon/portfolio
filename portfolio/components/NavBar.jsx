@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className='bg-slate-900'>
       <div className='container mx-auto px-4 py-2 flex justify-between items-center'>
         <Link href='/' className='text-lime-600 text-xl font-bold text-3xl'>
-          Emanuel's Portfolio
+          Emanuels Portfolio
         </Link>
         <div className='flex space-x-4'>
           <a href='https://www.linkedin.com/in/emanuel-gustafzon-software-developer/' target='_blank' rel='noopener noreferrer'>

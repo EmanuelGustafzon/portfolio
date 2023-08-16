@@ -11,7 +11,7 @@ const Footer = () => {
         />
         <h3 className='text-lg font-semibold mb-2'>Get in Touch</h3>
         <p className='mb-4'>
-          Feel free to reach out to me through the contact form, email, or phone number below.
+          Feel free to reach out to me through the email or phone number below.
         </p>
         <div className='flex flex-col items-center space-y-2'>
           <a href='mailto:emanuel.gustafzon@gmail.com' className='underline'>
