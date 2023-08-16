@@ -2,6 +2,7 @@ import NavBar from '../components/NavBar'
 import Card from '../components/Card'
 import { projects } from '../portfolio-projects/projects'
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 export default function Home() {
 
@@ -28,6 +29,7 @@ export default function Home() {
        )
       })}
        </div>
+       <Footer/>
     </div>
   )
 }
