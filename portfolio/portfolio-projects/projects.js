@@ -36,6 +36,13 @@ export const projects = [
     },
     {
       id: 6,
+      title: 'Authentication API',
+      image: '/images/authentication.jpg',
+      content: 'Reusable and secure API for authentication using JSON web tokens. built with Node.js, Express.js and MongoDB',
+      deployed: 'https://documenter.getpostman.com/view/2s9Y5WxNt9?version=latest',
+    },
+    {
+      id: 7,
       title: 'Storyhub',
       image: '/images/story.png',
       content: 'An in-process full-stack blog where users can create posts and add contributors. Built with MongoDB, Node.js, Express.js and Next.js using sessions for authentication.',
