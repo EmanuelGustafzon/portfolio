@@ -1,4 +1,4 @@
-import React from 'react';
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -14,12 +14,12 @@ const Footer = () => {
           Feel free to reach out to me through the email or phone number below.
         </p>
         <div className='flex flex-col items-center space-y-2'>
-          <a href='mailto:emanuel.gustafzon@gmail.com' className='underline'>
+          <Link href='mailto:emanuel.gustafzon@gmail.com' className='underline'>
             emanuel.gustafzon@gmail.com
-          </a>
-          <a href='tel:+46761888619' className='underline'>
+          </Link>
+          <Link href='tel:+46761888619' className='underline'>
           +46761888619
-          </a>
+          </Link>
         </div>
       </div>
     </footer>
