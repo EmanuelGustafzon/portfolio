@@ -17,10 +17,8 @@ export default function Home() {
       <Header text='About Me'/>
       <div className='flex justify-center mt-3 mb-3 w-76 lg:ml-32 lg:mr-32 mt-8 mb-8'>
         <p className='text-slate-900'>
-          Welcome to my portfolio! I am a passionate programmer and always striving to learn new things. 
-          I am most confident with JavaScript and Typescript, Node.js and express and MongoDB but I also have
-          knowledge about SQL and Python and currently learning C#. I love to explore different technologies and 
-          take on diverse coding challenges.
+          Welcome to my portfolio! I love to build projects and features and encounter new challanges.
+          I have a challange for you! decode this binary sequence:  01000011 01101000 01100001 01101110 01100111 01100101 00100000 01110100 01101000 01100101 00100000 01110111 01100001 01111001 00100000 01111001 01101111 01110101 00100000 01110011 01100101 01100101 00100000 01110100 01101000 01101001 01101110 01100111 01110011 00101100 00100000 01100001 01101110 01100100 00100000 01110100 01101000 01100101 00100000 01110100 01101000 01101001 01101110 01100111 01110011 00100000 01111001 01101111 01110101 00100000 01110011 01100101 01100101 00100000 01110111 01101001 01101100 01101100 00100000 01100011 01101000 01100001 01101110 01100111 01100101
         </p>      
       </div>
       <Header text='My Projects'/>
