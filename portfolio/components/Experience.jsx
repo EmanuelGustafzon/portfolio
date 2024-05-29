@@ -13,8 +13,8 @@ const Experience = () => {
       We started of learning HTML and CSS and developing responsive websites. 
       Have a look links below:
       <div>
-      <button className="btn py-2 bg-gray-100"> <Link href="https://emanuelgustafzon.github.io/Milestone-project-1-music-lessons/">Deployed site</Link> </button>
-      <button className="btn py-2 bg-gray-100"> <Link href="https://github.com/EmanuelGustafzon/Milestone-project-1-music-lessons">Source Code</Link></button>
+       <Link href="https://emanuelgustafzon.github.io/Milestone-project-1-music-lessons/">Deployed site</Link>
+       <Link href="https://github.com/EmanuelGustafzon/Milestone-project-1-music-lessons">Source Code</Link>
       </div>
     </div>
     <hr/>
