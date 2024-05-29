@@ -3,9 +3,9 @@ import { FaLinkedin, FaGithub, FaEnvelope, FaFile } from 'react-icons/fa';
 
 const Nav = () => {
   return (
-    <div className='w-full h-auto fixed' >
+    <div className='w-full h-auto fixed z-10'>
     <div class="grid grid-cols-4 gap-4 content-start">
-            <button className="btn">
+            <button className="btn ">
             <Link href='https://github.com/EmanuelGustafzon' target='_blank' rel='noopener noreferrer'>
               <FaGithub className='text-2xl text-slate-900' />
             </Link>
