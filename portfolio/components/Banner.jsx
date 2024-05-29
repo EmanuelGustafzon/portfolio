@@ -1,7 +1,7 @@
 import Image from "next/image"
 const Banner = () => {
   return (
-        <div className="hero min-h-screen bg-base-200">
+        <div className="hero min-h-screen">
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <Image width="600" height="700" src="/images/switzerland.jpg" className="max-w-sm rounded-lg shadow-2xl" />
                 <div>
