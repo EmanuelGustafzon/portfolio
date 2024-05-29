@@ -18,8 +18,8 @@ export default function Home() {
       <div className='container flex justify-center'>
         <h3 className='text-4xl font-bold py-6'>Studies at Code Institute</h3>
       </div>
-      <div className='container flex justify-center'>
-        <p className=''>While I was studing at Code Institute I built 5 coding projects</p>
+      <div className='flex justify-center py-6 px-6'>
+        <p className=''>Code Institute was a practical and theoretical chorse where we learned to code full stack web apps, work according to agile methology and UX design </p>
       </div>
       <Experience/>
        <Footer/>
