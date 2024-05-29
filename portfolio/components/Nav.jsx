@@ -16,9 +16,9 @@ const Nav = () => {
             </Link>
           </button>
           <button className="btn bg-gray-100 border-none">
-            <Link href='' target='_blank' rel='noopener noreferrer'>
+            <a href='mailto:emanuel.gustafzon@gmail.com' target='_blank' rel='noopener noreferrer'>
               <FaEnvelope className='text-2xl text-red-600' />
-            </Link>
+            </a>
           </button>
           <button className="btn bg-gray-100 border-none">
             <Link href='' target='_blank' rel='noopener noreferrer'>

@@ -31,8 +31,10 @@ const Experience = () => {
       <div className="text-lg font-black">Learn Spanish Quiz</div>
       Secound we learned about how to write logic and JavaScript.
       <div>
-        <button className="btn py-2 bg-gray-100"> <Link href="https://emanuelgustafzon.github.io/Milestone-project-2-Quiz/">Deployed site</Link> </button>
-        <button className="btn py-2 bg-gray-100"> <Link href="https://github.com/EmanuelGustafzon/Milestone-project-2-Quiz">Source Code</Link></button>
+        <ul>
+        <li className="underline"> <Link href="https://emanuelgustafzon.github.io/Milestone-project-2-Quiz/">Deployed site</Link> </li>
+        <li className="underline"> <Link href="https://github.com/EmanuelGustafzon/Milestone-project-2-Quiz">Source Code</Link></li>
+        </ul>
       </div>
     </div>
     <hr />
@@ -47,8 +49,10 @@ const Experience = () => {
       <div className="text-lg font-black">Escape The Building</div>
       We learned Python and I made a console game.
       <div>
-      <button className="btn py-2 bg-gray-100 bg-gray-100"> <Link href="https://escape-the-building.herokuapp.com/">Deployed site</Link> </button>
-      <button className="btn py-2 bg-gray-100 bg-gray-100" > <Link href="https://github.com/EmanuelGustafzon/escape-the-building">Source Code</Link></button>
+        <ul>
+      <li className="underline"> <Link href="https://escape-the-building.herokuapp.com/">Deployed site</Link> </li>
+      <li className="underline"> <Link href="https://github.com/EmanuelGustafzon/escape-the-building">Source Code</Link></li>
+      </ul>
       </div>
     </div>
     <hr />
@@ -63,8 +67,10 @@ const Experience = () => {
       <div className="text-lg font-black">HikeIt Blog</div>
       We learned fullstack development, MVC, UX Design and Agile Methology and I built a blog about hiking using Django and SQL and JavaScript.
       <div>
-        <button className="btn py-2 bg-gray-100"> <Link href="https://myhikeblog.herokuapp.com/">Deployed site</Link> </button>
-        <button className="btn py-2 bg-gray-100"> <Link href="https://github.com/EmanuelGustafzon/Milestone-project-4-hiking-blog">Source Code</Link></button>
+        <ul>
+        <li className="underline"> <Link href="https://myhikeblog.herokuapp.com/">Deployed site</Link> </li>
+        <li className="underline"> <Link href="https://github.com/EmanuelGustafzon/Milestone-project-4-hiking-blog">Source Code</Link></li>
+        </ul>
       </div>
     </div>
     <hr />
@@ -79,9 +85,11 @@ const Experience = () => {
       <div className="text-lg font-black">Car Lover Media</div>
       I choosed to specilize in advanced frontend and got to learn Django Rest API and React.
       <div>
-        <button className="btn py-2 bg-gray-100"> <Link href="https://autoloversmedia.herokuapp.com/">Deployed Website</Link> </button>
-        <button className="btn py-2 bg-gray-100"> <Link href="https://github.com/EmanuelGustafzon/project-5-api-autolovers">Source Code Backend</Link> </button>
-        <button className="btn py-2 bg-gray-100"> <Link href="https://github.com/EmanuelGustafzon/project-5-api-autolovers?tab=readme-ov-file">Source Code Frontend</Link></button>
+        <ul>
+        <li className="underline"> <Link href="https://autoloversmedia.herokuapp.com/">Deployed Website</Link> </li>
+        <li className="underline"> <Link href="https://github.com/EmanuelGustafzon/project-5-api-autolovers">Source Code Backend</Link> </li>
+        <li className="underline"> <Link href="https://github.com/EmanuelGustafzon/project-5-api-autolovers?tab=readme-ov-file">Source Code Frontend</Link></li>
+        </ul>
       </div>
     </div>
   </li>
