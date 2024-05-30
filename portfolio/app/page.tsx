@@ -22,7 +22,7 @@ export default function Home() {
        </div>
        <div className='flex flex-wrap'>
        {projects.map(project => (
-         <div key={project.id}>
+         <div className='pb-5' key={project.id}>
              <Card title={project.title} content={project.content} website={project.website} sourceCode={project.sourceCode}/>
          </div>
        ))};
