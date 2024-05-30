@@ -18,12 +18,12 @@ export default function Home() {
       <Banner/>
 
        <div className='container flex justify-center'>
-        <h3 className='text-3xl font-bold px-6 py-6'>Projects from Code Institute</h3>
+        <h3 className='text-3xl font-bold px-6 py-6'>Hobby Projects</h3>
        </div>
        <div className='flex flex-wrap'>
        {projects.map(project => (
          <div key={project.id}>
-             <Card title={project.title} content={project.content} website={project.website} sourceCode={project.sourceCode}>
+             <Card title={project.title} content={project.content} website={project.website} sourceCode={project.sourceCode}/>
          </div>
        ))};
        </div>
