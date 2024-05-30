@@ -63,8 +63,8 @@ export default function Home() {
           <p>Every december there is an advent calender by Advent of Code for programmers where you get one or two daily challanges during December, I did some of thos challanges so please have look and try to come up with your own solutions.</p>
         </div>
         <div className='flex justify-center pb-6'>
-          <Link href='https://adventofcode.com/' target='_blank' className="btn text-black bg-sky-200">Code of Advent Website</Link>
-          <Link href='https://github.com/EmanuelGustafzon/CodeOfAdvent' target='_blank' className="btn text-black bg-sky-200">My solutions for the first 10 days</Link>
+          <Link href='https://adventofcode.com/' target='_blank' className="btn text-black bg-sky-200">Code of Advent</Link>
+          <Link href='https://github.com/EmanuelGustafzon/CodeOfAdvent' target='_blank' className="btn text-black bg-sky-200">My solutions</Link>
         </div>
       </div>
       
