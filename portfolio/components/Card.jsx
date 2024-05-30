@@ -10,8 +10,8 @@ const Card = ({title, content, website, sourceCode}) => {
           <Link href={website} className="btn text-black bg-gray-100">Website</Link>
           <Link href={sourceCode} className="btn text-black bg-gray-100">Source Code</Link>
         </div>
-  </div>
-</div>
+      </div>
+    </div>
   )
 }
 
