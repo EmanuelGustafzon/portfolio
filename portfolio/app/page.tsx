@@ -21,7 +21,7 @@ export default function Home() {
           <p>We were two developers and a UX designer who built a website for a church event. The content is dynamic and can be managed from Google Sheets and when a customer book the event an email get sent to the customer and the information get stored in Google Sheets. I was mainly responsible for the connections on the backend and logic on the fronend and my coworker where responsable for the styling. </p>
             <div className="card-actions justify-end">
               <Link href='https://forankradkonferensen.se' className="btn text-black bg-gray-100">Website</Link>
-              <Link href='/' className="btn text-black bg-gray-100">Source Code</Link>
+              <Link href='https://github.com/forankradkonferensen/forankrad-konferensen' className="btn text-black bg-gray-100">Source Code</Link>
             </div>
         </div>
       </div>
@@ -32,7 +32,7 @@ export default function Home() {
        <div className='flex flex-wrap'>
        {projects.map(project => (
          <div className='pb-5' key={project.id}>
-             <Card title={project.title} content={project.content} website={project.website || null} sourceCode={project.sourceCode}/>
+             <Card title={project.title} content={project.content} website={project.website ? project.website : null} sourceCode={project.sourceCode}/>
          </div>
        ))};
        </div>
