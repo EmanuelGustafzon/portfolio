@@ -8,10 +8,6 @@ import Experience from '../components/Experience'
 
 export default function Home() {
 
-  projects?.map(project => {
-    console.log(project.title)
-  })
-
   return (
     <div>
       <Nav/>
