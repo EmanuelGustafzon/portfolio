@@ -36,7 +36,7 @@ export default function Home() {
             <div key={project.id}>
                 <Card title={project.title} content={project.content} website={project.website ? project.website : null} sourceCode={project.sourceCode}/>
             </div>
-          ))};
+          ))}
           </div>
         </div>
 
