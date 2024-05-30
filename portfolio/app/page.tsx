@@ -12,7 +12,7 @@ export default function Home() {
     <div>
       <Nav/>
       <Banner/>
-        <div className='container flex justify-center'>
+        <div className='flex justify-center'>
           <h3 className='text-3xl font-bold px-6 py-6'>Real World Freelance Projects</h3>
         </div>
         <div className='flex justify-center'>
@@ -28,7 +28,7 @@ export default function Home() {
           </div>
         </div>
         <div className='bg-sky-100'>
-          <div className='container flex justify-center'>
+          <div className='flex justify-center'>
             <h3 className='text-3xl font-bold px-6 py-6'>Hobby Projects</h3>
           </div>
           <div className='flex flex-wrap justify-center'>
@@ -40,7 +40,7 @@ export default function Home() {
           </div>
         </div>
 
-       <div className='container flex justify-center'>
+       <div className='flex justify-center'>
         <h3 className='text-3xl font-bold px-6 py-6'>Blog Posts</h3>
       </div>
       <div className='flex justify-center'>
@@ -55,7 +55,7 @@ export default function Home() {
         </div>
       </div>
       <div className='bg-sky-100'>
-        <div className='container flex justify-center'>
+        <div className='flex justify-center'>
           <h3 className='text-3xl font-bold px-6 py-6'>Algorhitms and DataStructures</h3>
         </div>
         <div className='py-6 px-6'>
@@ -68,7 +68,7 @@ export default function Home() {
         </div>
       </div>
       
-      <div className='container flex justify-center'>
+      <div className='flex justify-center'>
         <h3 className='text-3xl font-bold px-6 py-6'>Projects from Code Institute</h3>
       </div>
       <div className='flex justify-center py-6 px-6'>
