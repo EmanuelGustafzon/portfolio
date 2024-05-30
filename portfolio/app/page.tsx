@@ -4,7 +4,7 @@ import { projects } from '../portfolio-projects/projects'
 import Footer from '../components/Footer'
 import Card from '../components/Card'
 import Experience from '../components/Experience'
-
+import Link from 'next/link'
 
 export default function Home() {
 
