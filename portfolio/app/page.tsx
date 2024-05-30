@@ -16,6 +16,9 @@ export default function Home() {
     <div>
       <Nav/>
       <Banner/>
+      <div className='container flex justify-center'>
+        <h3 className='text-3xl font-bold px-6 py-6'>Real World Freelance Project</h3>
+       </div>
 
        <div className='container flex justify-center'>
         <h3 className='text-3xl font-bold px-6 py-6'>Hobby Projects</h3>
