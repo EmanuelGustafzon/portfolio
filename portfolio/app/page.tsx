@@ -16,7 +16,7 @@ export default function Home() {
           <h3 className='text-3xl font-bold px-6 py-6'>Real World Freelance Projects</h3>
         </div>
         <div className='flex justify-center'>
-          <div className="card w-96 bg-gray-50">
+          <div className="card w-96 bg-white">
             <div className="card-body items-center text-center">
               <h3 className="card-title">Dynamic Website for an Event</h3>
               <p>We were two developers and a UX designer who built a website for a church event. The content is dynamic and can be managed from Google Sheets and when a customer book the event an email get sent to the customer and the information get stored in Google Sheets. I was mainly responsible for the connections on the backend and logic on the fronend and my coworker where responsable for the styling. </p>
@@ -44,7 +44,7 @@ export default function Home() {
         <h3 className='text-3xl font-bold px-6 py-6'>Blog Posts</h3>
       </div>
       <div className='flex justify-center'>
-        <div className="card w-96 bg-gray-50">
+        <div className="card w-96 bg-white">
           <div className="card-body items-center text-center">
             <h3 className="card-title">Dig Deeper into JavaScript</h3>
             <p>One of my favorite language is TypeScript, a superset of JavaScript and I wanted to deep deeper into the language and I wrote this post. If you have any feedback plese let me know. </p>
