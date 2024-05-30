@@ -1,9 +1,8 @@
 export const projects = [
     {
       id: 1,
-      title: 'Music Lessons',
-      image: '/images/music-lessons.png',
-      content: 'A responsive promotional page for online music lessons built with HTML and CSS.',
+      title: 'Declarative List',
+      content: 'I wanted to build a unique project that also enhance my functional programming skills, building data structures and algorhitms and designing my own package. This is a library for working with linked lists according to functional programming principles.',
       deployed: 'https://emanuelgustafzon.github.io/Milestone-project-1-music-lessons',
       sourceCode: 'https://github.com/EmanuelGustafzon/Milestone-project-1-music-lessons'
     },
@@ -23,29 +22,4 @@ export const projects = [
       deployed: 'https://escape-the-building.herokuapp.com/',
       sourceCode: 'https://github.com/EmanuelGustafzon/escape-the-building',
     },
-    {
-      id: 4,
-      title: 'HikeIt Blog',
-      image: '/images/hike.png',
-      content: 'A full-stack blog built with Python, Django, PostgreSQL, HTML, CSS and bootstrap. The user can log in and create, read, update and delete comments from the database.',
-      deployed: 'https://myhikeblog.herokuapp.com/',
-      sourceCode: 'https://github.com/EmanuelGustafzon/Milestone-project-4-hiking-blog',
-    },    
-    {
-      id: 5,
-      title: 'Car Lovers Media',
-      image: '/images/auto.png',
-      content: 'Full stack social media platform built with React, PostgreSQL, Django and Django rest framework.',
-      deployed: 'https://autoloversmedia.herokuapp.com/',
-      sourceCode: 'https://github.com/EmanuelGustafzon/autoloversmedia',
-      sourceCodeApi: 'https://github.com/EmanuelGustafzon/project-5-api-autolovers'
-    },
-    {
-      id: 6,
-      title: 'Authentication API',
-      image: '/images/authentication.jpg',
-      content: 'Reusable and secure API for authentication using JSON web tokens. built with Node.js, Express.js and MongoDB',
-      deployed: 'https://documenter.getpostman.com/view/2s9Y5WxNt9?version=latest',
-      sourceCode: 'https://github.com/EmanuelGustafzon/express-auth',
-    },
-  ].reverse();
+  ]
