@@ -11,7 +11,7 @@ const Nav = () => {
             </Link>
           </button>
           <button className="btn bg-gray-100 border-none">
-            <Link href='https://www.linkedin.com/in/emanuel-gustafzon-software-developer/' target='_blank' rel='noopener noreferrer'>
+            <Link href='https://www.linkedin.com/in/emanuel-gustafzon-software-developer/' rel='noopener noreferrer'>
               <FaLinkedin className='text-2xl text-sky-700' />
             </Link>
           </button>
