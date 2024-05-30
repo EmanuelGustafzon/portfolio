@@ -7,7 +7,7 @@ const Card = ({title, content, website, sourceCode}) => {
         <h3 className="card-title">{title}</h3>
         <p>{content}</p>
         <div className="card-actions justify-end">
-          <Link href={website} className="btn text-black bg-gray-100">Website</Link>
+          {website && <Link href={website} className="btn text-black bg-gray-100">Website</Link> }
           <Link href={sourceCode} className="btn text-black bg-gray-100">Source Code</Link>
         </div>
       </div>
