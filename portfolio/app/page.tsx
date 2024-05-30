@@ -59,7 +59,7 @@ export default function Home() {
           <h3 className='text-3xl font-bold px-6 py-6'>Algorhitms and DataStructures</h3>
         </div>
         <div className='py-6 px-6'>
-          <p className='pb-6'>I enjoy solving difficut problems and puzzels with code when I have time. I have developed this skill with code wars and leetcode.</p>
+          <p className='pb-6'>I enjoy solving difficut problems and puzzels with code when I have time. I have developed this skill mainly with Code Wars and Leetcode.</p>
           <p>Every december there is an advent calender by Advent of Code for programmers where you get one or two daily challanges during December, I did some of thos challanges so please have look and try to come up with your own solutions.</p>
         </div>
         <div className='flex justify-center pb-6'>
