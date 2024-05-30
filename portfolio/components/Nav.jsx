@@ -21,7 +21,7 @@ const Nav = () => {
             </a>
           </button>
           <button className="btn bg-gray-100 border-none">
-            <Link href='' target='_blank' rel='noopener noreferrer'>
+            <Link href='resume.pdf' target='_blank' download rel='noopener noreferrer'>
               <FaFile className='text-2xl text-green-600' />
             </Link>
             CV

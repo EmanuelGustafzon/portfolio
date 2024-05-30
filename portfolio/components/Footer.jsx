@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <footer className='bg-gray-50 py-8'>
+    <footer className='bg-sky-100 py-8'>
       <div className='container mx-auto flex flex-col items-center justify-center'>
         <img
           src='/images/profile.jpg'
