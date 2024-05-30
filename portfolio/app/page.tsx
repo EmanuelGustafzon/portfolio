@@ -20,8 +20,8 @@ export default function Home() {
           <h3 className="card-title">Dynamic Website for an Event</h3>
           <p>We were two developers and a UX designer who built a website for a church event. The content is dynamic and can be managed from Google Sheets and when a customer book the event an email get sent to the customer and the information get stored in Google Sheets. I was mainly responsible for the connections on the backend and logic on the fronend and my coworker where responsable for the styling. </p>
             <div className="card-actions justify-end">
-              <Link href='https://forankradkonferensen.se' className="btn text-black bg-gray-100">Website</Link>
-              <Link href='https://github.com/forankradkonferensen/forankrad-konferensen' className="btn text-black bg-gray-100">Source Code</Link>
+              <Link href='https://forankradkonferensen.se' target='_blank' className="btn text-black bg-gray-100">Website</Link>
+              <Link href='https://github.com/forankradkonferensen/forankrad-konferensen' target='_blank className="btn text-black bg-gray-100">Source Code</Link>
             </div>
         </div>
       </div>
