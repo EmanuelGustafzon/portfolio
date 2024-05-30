@@ -2,13 +2,13 @@ import Link from "next/link"
 
 const Card = ({title, content, website, sourceCode}) => {
   return (
-    <div className="card w-96 bg-gray-300 text-white">
+    <div className="card w-96 bg-gray-50">
       <div className="card-body items-center text-center">
         <h3 className="card-title">{title}</h3>
         <p>{content}</p>
         <div className="card-actions justify-end">
-          <Link href={website} className="btn text-gray-100">Website</Link>
-          <Link href={sourceCode} className="btn text-white bg-gray-100">Source Code</Link>
+          <Link href={website} className="btn bg-gray-100">Website</Link>
+          <Link href={sourceCode} className="btn bg-gray-100">Source Code</Link>
         </div>
   </div>
 </div>
