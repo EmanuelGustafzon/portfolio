@@ -15,7 +15,7 @@ export const projects = [
       id: 3,
       title: 'Embracing Experience',
       content: 'I built a content management system in Next.JS and MongoDB where I can login and manage blog posts with images, videos and text and even a quiz and google maps',
-      website: 'https://embracingexperiences.com/',
+      website: 'https://embracing-experiences.com/',
       sourceCode: 'https://github.com/EmanuelGustafzon/embracing-experiences',
     },
   ]
