@@ -46,6 +46,15 @@ export default function Home() {
       <div className='flex justify-center'>
         <div className="card w-96 bg-white">
           <div className="card-body items-center text-center">
+            <h3 className="card-title">Understanding Memory Management, Pointers, and Function Pointers in C </h3>
+            <p>I wanted to learn more about low level programming and pointer so I wrote this post to learn it in a deeper way. </p>
+              <div className="card-actions justify-end">
+                <Link href='https://dev.to/emanuelgustafzon/understanding-memory-management-pointers-and-function-pointers-in-c-8ld' target='_blank' className="btn text-black bg-gray-100">Read here!</Link>
+              </div>
+          </div>
+        </div>
+        <div className="card w-96 bg-white">
+          <div className="card-body items-center text-center">
             <h3 className="card-title">Dig Deeper into JavaScript</h3>
             <p>One of my favorite language is TypeScript, a superset of JavaScript and I wanted to dig deeper into the language so I wrote this post. If you have any feedback plese let me know. </p>
               <div className="card-actions justify-end">
