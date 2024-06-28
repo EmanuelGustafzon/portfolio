@@ -40,7 +40,7 @@ export default function Home() {
           </div>
         </div>
 
-       <div className='flex justify-center'>
+       <div className='flex flex-wrap justify-center'>
         <h3 className='text-3xl font-bold px-6 py-6'>Blog Posts</h3>
       </div>
       <div className='flex justify-center'>
