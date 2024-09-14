@@ -53,15 +53,6 @@ export default function Home() {
               </div>
           </div>
         </div>
-        <div className="card w-96 bg-white">
-          <div className="card-body items-center text-center">
-            <h3 className="card-title">Dig Deeper into JavaScript</h3>
-            <p>One of my favorite language is TypeScript, a superset of JavaScript and I wanted to dig deeper into the language so I wrote this post. If you have any feedback plese let me know. </p>
-              <div className="card-actions justify-end">
-                <Link href='https://dev.to/emanuelgustafzon/dig-deeper-into-javascript-2pi7' target='_blank' className="btn text-black bg-gray-100">Read here!</Link>
-              </div>
-          </div>
-        </div>
       </div>
       <div className='bg-sky-100'>
         <div className='flex justify-center'>
